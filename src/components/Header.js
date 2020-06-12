@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'; 
+import LtDkMode from './LtDkMode';
 
 export default function Header() { 
   return (
@@ -12,6 +13,7 @@ export default function Header() {
         <Link to="/">/HOME/</Link>
         <Link to="/about">ABOUT</Link>
       </ul>
+      <LtDkMode />
     </header>
 
   )
