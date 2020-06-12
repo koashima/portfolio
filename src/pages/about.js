@@ -3,7 +3,7 @@ import Header from "../components/Header"
 
 function About() {
   return (
-    <div style={{ color: `teal` }}>
+    <div>
       <Header headerText="About me" />
       <p>I am a web developer primarily</p>
     </div>
