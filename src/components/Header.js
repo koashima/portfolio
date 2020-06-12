@@ -1,14 +1,19 @@
 import React from 'react';
 import { Link } from 'gatsby'; 
 
-export default function Header(props) { 
+export default function Header() { 
   return (
-    <div>
-      <Link to="/contact/">CONTACT</Link>
-      <Link to="/">/HOME/</Link>
-      <Link to="/about">ABOUT</Link>
-      <h1>{props.headerText}</h1>
-    </div>
+    <header style={{display: `flex`, justifyContent: `space-between` }}>
+      <Link to="/" style={{ backgroundImage: `none` }}>
+      <h2 style={{ display: `inline`, backgroundImage: `none` }}>koa shima</h2>
+      </Link>
+      <ul>
+        <Link to="/contact/">CONTACT</Link>
+        <Link to="/">/HOME/</Link>
+        <Link to="/about">ABOUT</Link>
+      </ul>
+    </header>
 
   )
 }
+
