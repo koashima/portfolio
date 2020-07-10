@@ -3,18 +3,27 @@ html {
   margin: 3rem auto;
   max-width: 800px;
   min-width: 50px;
-  background-color: aliceblue;
+  background-color: #131514;
+}
+
+ul { 
+  text-decoration: none;
 }
 
 a {
   text-shadow: none;
+  background-image: none;
+}
+
+a:hover { 
+  text-decoration: underline;
 }
 
 body {
-  --bg: whitesmoke;
-  --textNormal: #222;
-  --textTitle: #222;
-  --textLink: teal;
+  --bg: #DFE2E2;
+  --textNormal: #282C35;
+  --textTitle: #282C35;
+  --textLink: #282C35;
   --hr: hsla(0, 0%, 0%, 0.2);
 
   background-color: var(--bg);
@@ -26,7 +35,7 @@ body.dark {
   --bg: #282C35;
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: whitesmoke;
-  --textLink: rgb(131, 189, 189);
+  --textLink: #FFFFB3;
   --hr: hsla(0, 0%, 100%, 0.2);
 }
 

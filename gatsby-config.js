@@ -6,7 +6,7 @@
 
 module.exports = {
   plugins: [
-    'gatsby-plugin-dark-mode',
+    `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

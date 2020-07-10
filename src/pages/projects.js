@@ -5,8 +5,8 @@ import Layout from "../components/Layout";
 function About() {
   return (
     <Layout>
-      <Header headerText="About me" />
-      <p>I am a web developer primarily</p>
+      <Header headerText="PROJECTS" />
+      <h2>my projects</h2>
     </Layout>
   )
 }
