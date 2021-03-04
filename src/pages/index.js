@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import { StaticImage } from 'gatsby-plugin-image';
-import logo from '../images/logo.svg'
 // markup
 const IndexPage = () => {
   return (
@@ -15,7 +14,7 @@ const IndexPage = () => {
           src="../images/logo.svg"
           layout="constrained"
           width={100}
-          aspectRatio={1/1}
+          aspectRatio={1 / 1}
         />
       </div>
     </Layout>

@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'koa',
+    description: 'koa\'s website that is a portfolio '
   },
   plugins: [
     `gatsby-plugin-gatsby-cloud`,
