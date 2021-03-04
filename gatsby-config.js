@@ -7,7 +7,13 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    `gatsby-source-filesystem`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
