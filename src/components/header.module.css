@@ -1,0 +1,11 @@
+.nav-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+.nav-link-item {
+  list-style: none;
+  padding-right: 1rem;
+}
