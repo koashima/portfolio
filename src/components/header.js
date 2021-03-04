@@ -1,32 +1,34 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { navLinks, navLinkItem } from './header.module.css';
+import { title, navLinks, navLinkItem } from './header.module.css';
 const Header = () => {
   return (
-    <nav>
-      <ul className={navLinks}>
-        <li className={navLinkItem}>
-          <Link to="/">
-            <h1>koa</h1>
-          </Link>
-        </li>
-        <li className={navLinkItem}>
-          <Link to="/about">
-            <h2>about</h2>
-          </Link>
-        </li>
-        <li className={navLinkItem}>
-          <Link to="/contact">
-            <h2>contact</h2>
-          </Link>
-        </li>
-        <li className={navLinkItem}>
-          <Link to="/projects">
-            <h2>projects</h2>
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <h1>
+        <Link className={title} to="/">
+          K O A 
+        </Link>
+      </h1>
+      <nav>
+        <ul className={navLinks}>
+          <li>
+            <Link className={navLinkItem} to="/about">
+              about
+            </Link>
+          </li>
+          <li>
+            <Link className={navLinkItem} to="/contact">
+              contact
+            </Link>
+          </li>
+          <li>
+            <Link className={navLinkItem} to="/projects">
+              projects
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

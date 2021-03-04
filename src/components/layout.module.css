@@ -1,3 +1,7 @@
+html {
+  background-color: #252422;
+}
+
 .container {
   margin: 0 auto;
   max-width: 80%;
@@ -5,6 +9,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: #fffcf2;
+  border-radius: 10px;
 }
 

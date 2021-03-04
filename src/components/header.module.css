@@ -1,11 +1,29 @@
+.title {
+  color: #eb5e28;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.title:hover {
+  text-decoration: line-through;
+  text-decoration-color: #252422;
+}
+
 .nav-links {
   display: flex;
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+  list-style: none;
 }
 
 .nav-link-item {
-  list-style: none;
-  padding-right: 1rem;
+  color: #ccc5b9;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.nav-link-item:hover {
+  text-decoration: line-through;
+  color: #403d39;
 }
