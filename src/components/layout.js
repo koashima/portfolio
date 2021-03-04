@@ -1,5 +1,5 @@
 import React from 'react';
-import { container } from './layout.module.css';
+import { container } from './layout.module.scss';
 import Header from './header';
 const Layout = ({ pageTitle, children }) => {
   return (
