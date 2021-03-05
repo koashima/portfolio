@@ -3,11 +3,14 @@ import { container } from './layout.module.scss';
 import Header from './header';
 const Layout = ({ pageTitle, children }) => {
   return (
-    <main className={container}>
-      <title>{pageTitle}</title>
+    <div>
       <Header />
-      {children}
-    </main>
+      <main className={container}>
+        <title>{pageTitle}</title>
+
+        {children}
+      </main>
+    </div>
   );
 };
 

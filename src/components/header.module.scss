@@ -1,13 +1,23 @@
+.container {
+  margin: 0 auto 1rem;
+  max-width: 80%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #403d39;
+  border-radius: 10px;
+}
+
 .title {
+  margin: 0;
   color: #eb5e28;
   text-decoration: none;
   font-size: 3rem;
-  :hover {
+  &:hover {
     text-decoration: line-through;
-    text-decoration-color: #252422;
+    text-decoration-color: #403d39;
   }
 }
-
 
 .nav-links {
   display: flex;
@@ -21,9 +31,9 @@
   font-size: 1.5rem;
   margin-right: 1rem;
   text-decoration: none;
-  :hover {
+  &:hover {
     text-decoration: line-through;
-    color: #403d39;
-}
-
+    color: #fffcf2;
+    text-decoration-color: #403d39;
+  }
 }
