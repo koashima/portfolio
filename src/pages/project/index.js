@@ -1,9 +1,8 @@
 import React from 'react';
-import { graphql } from 'gatsby';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
-import Layout from '../components/layout';
+import { Link, graphql } from 'gatsby';
+import Layout from '../../components/layout';
 
-const Projects = ({ data }) => {
+const ProjectPage = ({ data }) => {
   return (
     <Layout pageTitle="projects">
       <h2>projects of koa</h2>
@@ -11,11 +10,12 @@ const Projects = ({ data }) => {
       <ul>
         {data.allMdx.nodes.map((node) => {
           return (
-            <li key={node.frontmatter.title}>
+            <li key={node.slug}>
               <article>
-                <h2>{node.frontmatter.title}</h2>
+                <h2>
+                  <Link to={node.slug}>{node.frontmatter.title}</Link>
+                </h2>
                 <p>{node.frontmatter.description}</p>
-                <MDXRenderer>{node.body}</MDXRenderer>
               </article>
               <hr />
             </li>
@@ -28,16 +28,16 @@ const Projects = ({ data }) => {
 
 export const query = graphql`
   query ProjPosts {
-    allMdx {
+    allMdx(sort: { fields: slug }) {
       nodes {
         frontmatter {
           title
           description
         }
-        body
+        slug
       }
     }
   }
 `;
 
-export default Projects;
+export default ProjectPage;
