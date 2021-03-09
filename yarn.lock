@@ -6470,6 +6470,20 @@
     "node-fetch" "^2.6.1"
     "uuid" "3.4.0"
 
+"gatsby-transformer-sharp@^3.0.0":
+  "integrity" "sha512-ydkUxYdoELPHcuE2OyTjgS3odcCikn6MPRC//dxPYDrIDMoJ6xPkbetTrshOEdGa2Yf02pp75Fs82PSeC+AXhA=="
+  "resolved" "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "bluebird" "^3.7.2"
+    "common-tags" "^1.8.0"
+    "fs-extra" "^9.1.0"
+    "potrace" "^2.1.8"
+    "probe-image-size" "^6.0.0"
+    "semver" "^7.3.4"
+    "sharp" "^0.27.0"
+
 "gatsby@^3.0.0", "gatsby@^3.0.0-next.0":
   "integrity" "sha512-ap9gbjPrk9ft1SY+fsAKfOpHWfUS+wb5kkeRxOunsQvvizoCUqCcxlRbuNpw1EKmPoHGbHN5D1vVEh1RXAwM6g=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-3.0.1.tgz"

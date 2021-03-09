@@ -9,13 +9,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-mdx`,
-    {
-      resolve: `gatsby-remark-images`,
-      options: {
-        maxWidth: 590,
-      },
-    },
-
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
