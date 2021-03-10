@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../../components/layout';
 import { getImage, GatsbyImage } from 'gatsby-plugin-image';
-import { projLinks, projLinkItem } from './project.module.scss';
+import { projLinks, projLinkItem, projImage} from './project.module.scss';
 
 const ProjectPage = ({ data }) => {
   return (
@@ -22,7 +22,7 @@ const ProjectPage = ({ data }) => {
                     {node.frontmatter.title}
                   </Link>
                 </h2>
-                <GatsbyImage image={image} />
+                <GatsbyImage image={image} className={projImage}/>
                 <p>{node.frontmatter.description}</p>
               </article>
               <hr />
