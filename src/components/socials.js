@@ -10,6 +10,15 @@ const Socials = () => {
         </a>
       </li>
       <li>
+        <a
+          className={socialLinkItem}
+          href="https://www.linkedin.com/in/davidshimabukuro/"
+        >
+          linkedin
+        </a>
+      </li>
+
+      <li>
         <a className={socialLinkItem} href="https://twitter.com/koashima">
           twitter
         </a>
