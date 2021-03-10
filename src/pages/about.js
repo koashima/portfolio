@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="about koa">
+    <Layout >
       <main>
         <h2>
           <span style={{ color: '#eb5e28' }}>about</span> koa

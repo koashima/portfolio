@@ -6,8 +6,10 @@ import { projLinks, projLinkItem } from './project.module.scss';
 
 const ProjectPage = ({ data }) => {
   return (
-    <Layout pageTitle="projects">
-      <h2>projects of koa</h2>
+    <Layout>
+      <h2>
+        koa's<span style={{ color: '#eb5e28' }}> projects</span>
+      </h2>
       <p>check out my projects</p>
       <ul className={projLinks}>
         {data.allMdx.nodes.map((node) => {
