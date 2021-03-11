@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'koa',
     description: "koa's website that is a portfolio ",
+    author: "David (Koa) Shimabukuro",
   },
   plugins: [
     `gatsby-plugin-gatsby-cloud`,
