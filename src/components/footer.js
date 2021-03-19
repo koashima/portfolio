@@ -1,8 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import { container } from './footer.module.scss';
-
+import './footer.module.scss'
 const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -15,7 +14,7 @@ const Footer = () => {
   `);
 
   return (
-    <footer className={container}>
+    <footer>
       <h5>Created by {data.site.siteMetadata.author}, © 2021</h5>
       <div>
         <StaticImage

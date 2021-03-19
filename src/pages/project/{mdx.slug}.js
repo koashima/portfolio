@@ -10,7 +10,9 @@ const ProjPostTemplate = ({ data }) => {
     <Layout>
       <h2>{data.mdx.frontmatter.title}</h2>
       <GatsbyImage image={image} />
-      <MDXRenderer>{data.mdx.body}</MDXRenderer>
+      <div>
+        <MDXRenderer>{data.mdx.body}</MDXRenderer>
+      </div>
     </Layout>
   );
 };

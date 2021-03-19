@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
-import { container, title, navLinks, navLinkItem } from './header.module.scss';
+import { title, navLinks, navLinkItem } from './header.module.scss';
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -14,7 +14,7 @@ const Header = () => {
   `);
 
   return (
-    <header className={container}>
+    <header>
       <h1>
         <Link className={title} to="/">
           {data.site.siteMetadata.title}
