@@ -25,6 +25,7 @@ h1 {
 
 .nav-links {
   display: flex;
+  min-width: auto;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,7 +33,7 @@ h1 {
 
 .nav-link-item {
   color: #ccc5b9;
-  font-size: 2rem;
+  font-size: 4vw;
   margin-right: 1rem;
   text-decoration: none;
   &:hover {
