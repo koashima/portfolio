@@ -1,27 +1,22 @@
-<h1 align="center">
-Koa's Portfolio
-</h1>
+<div align="center"></div>
+<h1 align="center">koa (Portfolio)</h1>
+<p align="center"><strong>Personal portfolio website</strong>
+<br>react / gatsby / graphql 
+</p>
+<br/>
 
-## 🚀 Quick start
+<h2>About</h2>
 
-1.  **Create a Gatsby site.**
+Koa is my personal portfolio created with gatsby 3.0.
+You can visit the site [HERE](https://koa.gatsbyjs.io/).
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+<h2>Key Learnings</h2>
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- Progrommatically created pages with Gatsby using .mdx.
+- Used GraphQL to pull page data.
+- Used SASS for styling.
 
-2.  **Start developing.**
+<h2>Project status</h2>
+Koa is up and running, but it is very bare bones
+<hr/>
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
