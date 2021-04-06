@@ -5,17 +5,17 @@ const AboutPage = () => {
   return (
     <Layout >
       <main>
-        <h2>
-          <span style={{ color: '#eb5e28' }}>about</span> koa
-        </h2>
+        <h1>
+          <span style={{ color: '#eb5e28' }}>about.</span> 
+        </h1>
         <p>
-          koa enjoys creating things, having conversations with people, and
+          Koa enjoys creating things, having conversations with people, and
           growing in all ways.
         </p>
         <p>
-          if you're reading this,
-          <span style={{ color: '#eb5e28' }}> lucky you</span> . if you check
-          back i'm sure you will see much improvement since i am developing this
+          If you're reading this,
+          <span style={{ color: '#eb5e28' }}> lucky you</span>. If you check
+          back I'm sure you will see much improvement to the site, since I am developing this
           site as you read this.
         </p>
       </main>

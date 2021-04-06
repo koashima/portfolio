@@ -9,7 +9,7 @@
 
 .proj-link-item {
   color: #ccc5b9;
-  font-size: 5vw;
+  font-size: min(4vw, 36px);
   margin-right: 1rem;
   text-decoration: none;
   &:hover {
