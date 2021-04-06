@@ -28,7 +28,7 @@ const Socials = () => {
           instagram
         </a>
       </li>
-    </ul>
+     </ul>
   );
 };
 

@@ -7,10 +7,10 @@ import { projLinks, projLinkItem, projImage} from './project.module.scss';
 const ProjectPage = ({ data }) => {
   return (
     <Layout>
-      <h2>
-        koa's<span style={{ color: '#eb5e28' }}> projects</span>
-      </h2>
-      <p>check out my projects</p>
+      <h1>
+        <span style={{ color: '#eb5e28' }}> projects.</span>
+      </h1>
+      <h2>check out my projects</h2>
       <ul className={projLinks}>
         {data.allMdx.nodes.map((node) => {
           const image = getImage(node.frontmatter.hero_image);

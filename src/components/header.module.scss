@@ -4,11 +4,12 @@ header {
   padding: .5rem;
   display: flex;
   flex-direction: column;
-  background-color: #403d39;
+  background-color: #42413D;
   border-radius: 10px;
 }
 
 h1 {
+  font-size: min(7vw, 48px);
   margin: 0;
 }
 
@@ -16,10 +17,9 @@ h1 {
   margin: 0;
   color: #eb5e28;
   text-decoration: none;
-  font-size: 3rem;
   &:hover {
     text-decoration: line-through;
-    text-decoration-color: #403d39;
+    text-decoration-color: #42413D;
   }
 }
 
@@ -33,7 +33,7 @@ h1 {
 
 .nav-link-item {
   color: #ccc5b9;
-  font-size: 4vw;
+  font-size: min(4vw, 36px);
   margin-right: 1rem;
   text-decoration: none;
   &:hover {
